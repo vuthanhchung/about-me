@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './screens/HomeScreen';
 import * as serviceWorker from './serviceWorker';
+import Router from './routes';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Router />
     <App />
   </React.StrictMode>,
   document.getElementById('root'),
